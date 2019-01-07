@@ -1,0 +1,125 @@
+* {
+	-o-transition: all .10s ease-in-out;
+    -moz-transition: all .10s ease-in-out;
+    -webkit-transition: all .10s ease-in-out;
+    -ms-transition: all .10s ease-in-out;
+}
+
+.header {
+	background: linear-gradient(45deg, #990037, #973f5e);
+	padding-top: 80px;
+	padding-bottom: 80px;
+	color: #ffffff;
+}
+.header h1 {
+	font-size: 500%;
+	margin-bottom: 30px;
+	font-weight: bolder;
+}
+.header .btn {
+	font-weight: bold;
+	background: transparent;
+	border-color: #ffffff;
+	border-width: 1px;
+	border-radius: 30px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 105%;
+}
+.header .btn:hover {
+	color: #000000;
+	background: #ffffff;
+	border-color: #ffffff;
+	transition: all .100s ease-in-out;
+	-o-transition: all .100s ease-in-out;
+    -moz-transition: all .100s ease-in-out;
+    -webkit-transition: all .100s ease-in-out;
+    -ms-transition: all .100s ease-in-out;
+}
+.content {
+	text-align: justify;
+	font-weight: bold;
+	margin-top: 30px;
+	line-height: 40px;
+}
+nav.navbar {
+	background: #990037;
+	font-weight: bolder;
+}
+.navbar-brand, .nav-link {
+	color: #ffffff !important;
+}
+.navbar-nav .nav-link {
+	margin-right: 30px;
+}
+.navbar-nav .nav-link.dropdown-toggle {
+	margin-right: 0;
+}
+main {
+	background: #990037;
+	height: 300px;
+}
+.form-field {
+	border: 2px solid #990037;
+	border-top: 0;
+	border-bottom-right-radius: 15px;
+	padding: 30px;
+	background: #ffffff;
+	position: relative;
+	top: 50px;
+}
+.form-group {
+	margin-bottom: 40px;
+}
+.form-control {
+	border: 0;
+	border-bottom: 1px solid #cccccc;
+	border-radius: 0;
+}
+.btn:focus, input[type="submit"]:focus, a[class="btn"]:focus, .form-control:focus, .page-item, .page-link {
+ 	box-shadow: 0 0 0 0 !important;
+}
+.form-control:focus {
+	border-color: #990037;
+	border-width: 2px;
+}
+.input-group .input-group-text {
+	background: transparent !important;
+	border-top: 0;
+	border-left: 0;
+	border-radius: 0;
+	cursor: default;
+}
+.input-group .input-group-prepend {
+	border-right: 1px solid #ccc;
+}
+.input-group .input-group-append {
+	border-left: 1px solid #ccc;
+}
+label, .btn {
+	font-weight: bold;
+}
+.btn {
+	border-width: 1px;
+	border-radius: 30px;
+	padding-left: 25%;
+	padding-right: 25%;
+}
+.btn-primary {
+	background: #990037;
+	border-color: #ffffff;
+}
+.btn-primary:hover {
+	background: transparent;
+	color: #000000;
+	border-color: #990037;
+}
+.btn:active {
+	background: #990037 !important;
+	border-color: #930136 !important;
+}
+.form-footer {
+	text-align: center;
+}
